@@ -13,3 +13,28 @@ Traceback (most recent call last):
     self.Frame.Show()
 TypeError: Window.Show(): first argument of unbound method must have type 'Window'
 OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 19, in OnInit
+    self.Frame = mainFrame()
+NameError: name 'mainFrame' is not defined
+OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 19, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 12, in __init__
+    self.SetBackgroundColour(wx.Color(250, 0, 0))
+AttributeError: module 'wx' has no attribute 'Color'
+OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 19, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 12, in __init__
+    self.SetBackgroundColour(wx.Color(250, 0, 0))
+AttributeError: module 'wx' has no attribute 'Color'
+OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 19, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 12, in __init__
+    self.SetBackgroundColour(wx.Color(250, 0, 0))
+AttributeError: module 'wx' has no attribute 'Color'
