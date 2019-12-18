@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "E:/git/Python/test.py", line 40, in OnInit
+    self.SetAppName(APP_TITLE)
+NameError: name 'APP_TITLE' is not defined
+OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/Python/test.py", line 40, in OnInit
+    self.SetAppName(APP_TITLE)
+NameError: name 'APP_TITLE' is not defined
+OnInit returned false, exiting...
+Traceback (most recent call last):
+  File "E:/git/Python/test.py", line 42, in OnInit
+    self.Frame.Show()
+TypeError: Window.Show(): first argument of unbound method must have type 'Window'
+OnInit returned false, exiting...
