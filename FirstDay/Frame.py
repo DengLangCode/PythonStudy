@@ -30,4 +30,4 @@ class mainApp(wx.App): #定义一个wx.App子类对象
             pass
 if __name__ == "__main__":
         app = mainApp(redirect=True, filename="debug.txt")
-        app.MainLoop()
+        app.MainLoop(),
