@@ -38,3 +38,59 @@ Traceback (most recent call last):
   File "E:/git/PythonStudy/FirstDay/Frame.py", line 12, in __init__
     self.SetBackgroundColour(wx.Color(250, 0, 0))
 AttributeError: module 'wx' has no attribute 'Color'
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 33, in <module>
+    app = mainApp(redirect=True, filename="debug.txt")
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8628, in __init__
+    self._BootstrapApp()
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8196, in _BootstrapApp
+    return _core_.PyApp__BootstrapApp(*args, **kwargs)
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 28, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 22, in __init__
+    self.SetSize(600, 600)
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 9334, in SetSize
+    return _core_.Window_SetSize(*args, **kwargs)
+TypeError: Window_SetSize() takes at most 2 arguments (3 given)
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 33, in <module>
+    app = mainApp(redirect=True, filename="debug.txt")
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8628, in __init__
+    self._BootstrapApp()
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8196, in _BootstrapApp
+    return _core_.PyApp__BootstrapApp(*args, **kwargs)
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 28, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 22, in __init__
+    self.SetSize(600, 600)
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 9334, in SetSize
+    return _core_.Window_SetSize(*args, **kwargs)
+TypeError: Window_SetSize() takes at most 2 arguments (3 given)
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 33, in <module>
+    app = mainApp(redirect=True, filename="debug.txt")
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8628, in __init__
+    self._BootstrapApp()
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8196, in _BootstrapApp
+    return _core_.PyApp__BootstrapApp(*args, **kwargs)
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 28, in OnInit
+    self.Frame = mainFrame()
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 22, in __init__
+    self.SetSize(600, 600)
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 9334, in SetSize
+    return _core_.Window_SetSize(*args, **kwargs)
+TypeError: Window_SetSize() takes at most 2 arguments (3 given)
+Traceback (most recent call last):
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 33, in <module>
+    app = mainApp(redirect=True, filename="debug.txt")
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8628, in __init__
+    self._BootstrapApp()
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 8196, in _BootstrapApp
+    return _core_.PyApp__BootstrapApp(*args, **kwargs)
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 28, in OnInit
+    self.Frame = wx.Frame(mainFrame())
+  File "E:/git/PythonStudy/FirstDay/Frame.py", line 22, in __init__
+    self.SetSize(600, 600)
+  File "D:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 9334, in SetSize
+    return _core_.Window_SetSize(*args, **kwargs)
+TypeError: Window_SetSize() takes at most 2 arguments (3 given)

@@ -1,3 +1,4 @@
+# encoding:utf-8
 """
 框架结构
 2019/12/18
@@ -24,7 +25,7 @@ class mainFrame(wx.Frame): #定义一个wx.Frame子类对象
 class mainApp(wx.App): #定义一个wx.App子类对象
         def OnInit(self): #在子类中写OnInit方法
             self.SetAppName(App_Title)
-            self.Frame = mainFrame()
+            self.Frame = wx.Frame(mainFrame())
             self.Frame.Show()
             return True
             pass

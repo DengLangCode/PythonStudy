@@ -1,3 +1,4 @@
+# encoding:utf_8
 """
     Python学习之wxPython窗口
     2019/12/18
