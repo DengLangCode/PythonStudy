@@ -1,5 +1,7 @@
+
 # encoding:utf-8
 # #指定编码为utf-8，目得是支持中文
+# encoding:utf-8 #指定编码为utf-8，目得是支持中文
 '''
 模拟浏览器抓取数据，模拟浏览器发出指令，不会被网址拦截
 模块：selenium（浏览器自动化测试框架）
@@ -140,6 +142,13 @@ def GetResultFrom51Job(searchname, html):
     pagesource = driver.page_source
     html[0] = pagesource
 #    print(html)
+
+def DownloadFromUrl(searchname):
+    url = "https://search.51job.com/list/090200,000000,0000,00,9,99,"+searchname+",2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare="
+    driver = selenium.webdriver.Chrome('D:\Python27\module\chromedriver.exe')
+    driver.get(url)
+    pagesource = driver.page_source
+#    print(pagesource)
 #    restr = "<em>(\\d+)</em>"
     restr = """<div class="rt">([\s\S]*?)</div>"""
     regex = re.compile(restr,re.IGNORECASE)
@@ -166,5 +175,5 @@ if __name__ == "__main__":
         dlg = RealDlg(None)
         dlg.Show()
         app.MainLoop()
-
-
+result=DownloadFromUrl("python")
+print(result)

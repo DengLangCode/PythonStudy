@@ -23,6 +23,7 @@ import selenium.webdriver
 import re
 from selenium import webdriver
 import wx
+
 # -*- coding: utf-8 -*-
 
 ###########################################################################
@@ -166,5 +167,3 @@ if __name__ == "__main__":
         dlg = RealDlg(None)
         dlg.Show()
         app.MainLoop()
-
-
